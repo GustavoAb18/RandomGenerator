@@ -1,6 +1,6 @@
 letters = ('a'..'z').to_a
 numbers = ('0'..'9').to_a
-special = %w(! @ # $ % & * ( ) + { })
+special = %w(! @ # $ % ^ & * ( ) _ - + = { } [ ] ¨ | /)
 
 pool = letters + numbers + special
 
